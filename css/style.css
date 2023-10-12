@@ -257,6 +257,7 @@ form button{
 
 .filter{
     display: flex;
+    flex-direction: column;
     margin:0px 10px 15px 10px;
 }
 .button-filter{
@@ -298,6 +299,11 @@ form button{
 .info p {
     margin-top: 5px;
     
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 
@@ -419,7 +425,7 @@ footer{
     }
     
 /* FILTRE */
-
+    
     .buttons{
         display: flex;
         flex-direction: row;
@@ -587,6 +593,9 @@ footer{
         padding: 0px 22px 0px 7px;
         gap: 5px;
     }
+    .button-filter p{
+        font-size: 12px;
+    }
     .buttons{
         flex-wrap: wrap;
         gap: 15px;
@@ -596,6 +605,14 @@ footer{
     }
     .rom{
        padding-right: 25px;
+    }
+    .np{
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+    .line{
+        align-items: center;
+
     }
     /* hbrgmt and pop */
     .hebergements-and-populaires {
