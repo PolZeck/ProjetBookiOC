@@ -21,8 +21,8 @@
                         <img src="images/logo/Booki.png" class="logo" alt="booki">
                         <div class="bloc_menu">
 
-                            <a href="#Hébergements-ancre" class="menu">Hébergements</a>
-                            <a href="#Activités-ancre" class="menu">Activités</a>
+                            <a href="#link-hebergments" class="menu">Hébergements</a>
+                            <a href="#link-activities" class="menu">Activités</a>
                         </div>
                     </nav>
         </header>
@@ -30,37 +30,43 @@
             <form action ="#" method="get">
                 <h1 class="section-title">Trouver votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <div class="en-tete">
-                    
+                <div class="searchbar">
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" id="search" placeholder="Marseille, FRANCE">
-                    <button class="cta" type="button">
-                        Rechercher
-                    </button>
+                    <a href="#">
+                        <button type="button">
+                            <p>Rechercher</p>
+                        </button>
+                    </a>
                 </div>
             </form>
-            <div class="filtres">
-                <h3 class="filtres-title">Filtres</h3>
-                <div class="bouton-filtre">
-                    <p> <i class="fa-solid fa-money-bill-wave"></i>  Économique</p>
+            <div class="filter">
+                <h3 class="filter-title">Filtres</h3>
+                <div class="buttons">
+                    <div class="button-filter">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <p>Économique</p>
+                    </div>
+                    <div class="button-filter">
+                        <i class="fa-solid fa-child-reaching"></i>
+                        <p>Familial</p>
+                    </div>
+                    <div class="button-filter">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Romantique</p>
+                    </div>
+                    <div class="button-filter">
+                        <i class="fa-solid fa-fire"></i>
+                        <p>Nos pépites</p>
+                    </div>
                 </div>
-                <div class="bouton-filtre">
-                    <p> <i class="fa-solid fa-child-reaching"></i>  Familial</p>
-                </div>
-                <div class="bouton-filtre">
-                    <p> <i class="fa-solid fa-heart"></i>  Romantique</p>
-                </div>
-                <div class="bouton-filtre">
-                    <p> <i class="fa-solid fa-fire"></i>  Nos pépites</p>
-                </div>
-                
              </div>
              <div class="info">
                 <i class="fa-solid fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
            
-            <div class="hebergements-and-populaires" id="Hébergements-ancre">
+            <div class="hebergements-and-populaires" id="link-hebergments">
                 <section class="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2><br><br>
                     <div class="Hébergement-cards" >
@@ -250,53 +256,50 @@
                 </section>
             </div>
             
-            <div class="Activités" id="Activités-ancre">
+            <div class="activities" id="link-activities">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="Act">  
-                    <div class="card-Activités">
+                    <div class="card-activities">
                         <img src="images/activites/reno-laithienne.jpg" alt="photo représentant le Vieux Port de Marseille">
                         <div class="Act-content">
                             <h3 class="card-title">Vieux-Port</h3>
                         </div>
                     </div>
-                    <div class="card-Activités">
+                    <div class="card-activities">
                         <img src="images/activites/paul-hermann.jpg" alt="photo représentant le Fort de Pomègues">
                         <div class="Act-content">
                             <h3 class="card-title">Fort de Pomègues</h3>
                         </div>
                     </div>
-                    <div class="card-Activités">
+                    <div class="card-activities">
                         <img src="images/activites/kilyan-sockalingum.jpg" alt="photo représentant le Parc national des Calanques">
                         <div class="Act-content">
                             <h3 class="card-title">Parc national des Calanques</h3>
                         </div>
                     </div>
-                    <div class=" card-Activités">
+                    <div class="card-activities">
                         <img src="images/activites/florian-wehde.jpg" alt="photo représentant Notre-Dame-de-la-Garde">
                         <div class="Act-content">
                             <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </div>
                     </div>
                 </div> 
-
-
-
             </div>
         </main>
         <footer>
-            <div class="pied">
-                <div class="à-propos">
+            <div class="foot">
+                <div class="btw">
                     <h3> À propos</h3>
                     <p>Fonctionnement du site</p>
                     <p>Conditions générales</p>
                     <p>Données et confidentialité</p>
                 </div>
-                <div class="Nos-Hébergements">
+                <div class="btw_hebergement">
                     <h3> Nos Hébergements</h3>
                     <p>Charte qualité</p>
                     <p>Proposer votre hôtel</p>
                 </div>
-                <div class="Assistance">
+                <div class="assistance">
                     <h3>Assistance</h3>
                     <p>Centre d'aide</p>
                     <p>Nous contacter</p>
