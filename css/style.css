@@ -78,13 +78,14 @@ a {
 .hebergements {
    width: 65%;
 }
-.Hébergement-cards {
+.hebergement-cards {
     display: flex;
-    flex-wrap: wrap;
-    gap:6%;
+    flex-wrap: wrap;    
+    gap:10px;
+    justify-content: space-around;
 }
-.Hébergement-cards div{
-    flex-basis: calc(33% - 40px);
+.hebergement-cards div{
+    flex-basis: calc(25% - 40px);
     width: 220px;
 }   
 .card-hebergements img{
@@ -104,7 +105,7 @@ a {
 .hbrgmt-content{
     padding-left: 10px;
     padding-bottom: 10px;
-    line-height:0.5;
+    line-height:0.6;
 }
 .display{
     margin-bottom: 25px;
@@ -188,6 +189,7 @@ nav{
     padding-right: 30px;
     text-decoration: none;
     border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 .menu:hover{
     border-top: 3px solid #0065FC;
@@ -239,6 +241,10 @@ form button{
     display: flex;
     margin-top: 35px;
     margin-bottom: 35px;   
+}
+.fa-magnifying-glass{
+    display: none;
+    color: white;
 }
 
 
@@ -457,7 +463,7 @@ footer{
       }
     /* Hebergements */
 
-    .Hébergement-cards div{
+    .hebergement-cards div{
         
         width: 180px;
     }
@@ -468,7 +474,7 @@ footer{
     .card-title{
         font-size: 12px;
     }
-    .Hébergement-cards {
+    .hebergement-cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -524,5 +530,82 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    /* header */
+   nav{
+    display: flex;
+    flex-direction: column;
+   }
+    .logo{
+        display: block;
+        margin: auto;
+        margin-left: 30%;
+    }
+    .bloc_menu{
+        display: flex;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .menu:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: 1px solid transparent;
+        color: #0065FC;
+    }
+    .menu{
+        padding: 0px 30px 5px 30px;
+    }
+
+
+    /* form*/
+
+
+    .section-title {
+        margin: 0;
+        font-size: 19px;
+    }
+    form p{
+        font-size: 14px;
+    }
+    button p{
+        display: none;
+    }
+    .fa-magnifying-glass{
+        
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 13px;
+    }
+    form button{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* filter */
+    .button-filter{
+        font-size: 12px;
+        padding: 0px 22px 0px 7px;
+        gap: 5px;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .fam{
+        padding-right: 45px;
+    }
+    .rom{
+       padding-right: 25px;
+    }
+    /* hbrgmt and pop */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+
+    /* activities */
+
+    .Act{
+        flex-direction: column;
+    }
 }
