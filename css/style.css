@@ -579,7 +579,7 @@ footer{
         white-space: nowrap;
         font-size: 12px;
     }
-    button p{
+    button .rechercher{
         display: none;
     }
     .fa-magnifying-glass{
