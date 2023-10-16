@@ -67,7 +67,7 @@ a {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -547,7 +547,7 @@ footer{
     .logo{
         display: block;
         margin: auto;
-        margin-left: 30%;
+        
     }
     .bloc_menu{
         display: flex;
@@ -572,8 +572,8 @@ footer{
 
     .section-title {
         margin: 0;
-        font-size: 16px;
-        line-height: 0.9;
+        font-size: 15px;
+        line-height: 1;
     }
     form p{
         white-space: nowrap;
@@ -592,6 +592,9 @@ footer{
         padding-left: 0px;
         padding-right: 0px;
     }
+    form input{
+        font-size: 11.5px;
+    }
     
 
     /* filter */
@@ -606,7 +609,8 @@ footer{
     }
     .buttons{
         flex-wrap: wrap;
-        gap: 7.5px;
+        gap: 17.5px;
+        margin-left: -9px;
     }
     .fam{
         padding-right: 45px;
@@ -620,7 +624,7 @@ footer{
     }
     .line{
         align-items: center;
-        gap: 22px;
+        gap: 16px;
     }
     .info p{
         font-size: 12px;
@@ -653,16 +657,71 @@ footer{
         margin-top: 0px;
     }
     .hebergements-and-populaires section {
-        background-color: var(--main-bg-color);
+        background-color: #F2F2F2;
         border-radius: 0;
         padding: 15px 10px 10px 10px;
         box-sizing: border-box;
         
     }
+    .populaires-cards a {
+        width: 100%;
+    }
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .populaires-cards .card {
+        display: flex;
+        margin-top: 14px;
+    }
+    .card{
+        border-radius: 24px;
+    }
+
+
+    /* hebergements */
+    .hebergements-and-populaires .hebergements{
+        background-color: white ;
+    }
+    .hebergement-cards{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        flex-wrap: nowrap;
+    }
+    .hebergement-cards div {
+        width: 100%;
+    }
+    .hebergements h2{
+        padding-top: 20px;
+        margin-bottom: -20px;
+    }
+    .card-hebergements{
+        margin-bottom: 10px;
+    }
 
     /* activities */
 
     .Act{
+        flex-direction: column;
+    }
+    .Act img {
+        height: 130px;
+    }
+    .Act-content {
+        padding-top: 0px;
+    }
+
+
+    /* footer */
+    .foot{
+        flex-direction: column;
+    }
+    .assistance {
+        margin-left: 0px;
+        display: flex;
         flex-direction: column;
     }
 }
