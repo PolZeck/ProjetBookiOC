@@ -97,7 +97,7 @@ a {
 .card-hebergements img{
     object-fit: cover;
     width: 100%;
-    height: 120px;
+    height: 135px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -114,7 +114,18 @@ a {
 .hbrgmt-content{
     padding-left: 10px;
     padding-bottom: 10px;
-    line-height:0.9;
+    line-height:0.7;
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+.card-subtitle{
+    font-size: 13px;
+}
+.card-rating{
+    display: flex;
 }
 
 .display{
@@ -347,15 +358,17 @@ form button:hover{
 
 .activities img{
     width:100%;
-    height: 80%;
+    height: 90%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
 }
 
 .activities-content{
-    padding-left: 20px;
+    padding-left: 15px;
     border-radius: 0px 0px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -541,11 +554,12 @@ footer{
     }
 
     .activities img{
-        height: 75%;
+        height: 80%;
     }
 
     .activities-content{
-        padding-top: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
 
