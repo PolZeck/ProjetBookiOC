@@ -1,7 +1,6 @@
 /*** General ***/
 * {
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif;   
 }
 
 :root {
@@ -16,8 +15,7 @@
 
 body {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .main-container {
@@ -60,8 +58,8 @@ a {
     color: var(--main-bg-color)
 }
 
-/*** Hebergements And Populaires ***/
 
+/*** Hebergements And Populaires ***/
 
 .hebergements-and-populaires {
     display: flex;
@@ -76,8 +74,8 @@ a {
     padding-bottom: 5px;
 }
 
-/*** Hebergements ***/
 
+/*** Hebergements ***/
 
 .hebergements {
    width: 65%;
@@ -88,10 +86,10 @@ a {
     flex-wrap: wrap;    
     gap:10px;
     justify-content: space-around;
+    margin-top: 15px;
 }
 
 .hebergement-cards div{
-    flex-basis: calc(25% - 40px);
     width: 220px;
 } 
 
@@ -125,8 +123,8 @@ a {
     margin-top: -10px;
 }
 
-/*** Populaires ***/
 
+/*** Populaires ***/
 
 .populaires {
     width: 32%;
@@ -190,7 +188,7 @@ nav{
 }
 
 .menu{
-    padding: 40px;
+    padding: 47px;
     padding-left: 30px;
     padding-right: 30px;
     text-decoration: none;
@@ -488,7 +486,6 @@ footer{
 
     .hebergement-cards div{
         width: 180px;
-        
     }
 
     .hbrgmt-content{
@@ -503,7 +500,7 @@ footer{
     .hebergement-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: inherit;
+        justify-content: space-around;
         gap: 10px;
     }
 
@@ -665,20 +662,27 @@ footer{
     }
 
     .info p{
-        font-size: 12px;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .info{
+        align-items: center;
+        margin-bottom: 15px
     }
 
     .fa-info {
         border: 1px solid lightgrey;
         border-radius: 50%;
         color: #0065FC;
-        height: 20px;
-        width: 25px;
-        font-size: 12px;
+        height: 26px;
+        width: 7px;
+        font-size: 10px;
+        padding: 0px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 8px 5px 29px 0px;
+        margin: -1px 5px -1px 0px;
     }
 
     /* hbrgmt and pop */
@@ -741,7 +745,6 @@ footer{
 
     .hebergements h2{
         padding-top: 20px;
-        margin-bottom: -20px;
     }
 
     .card-hebergements{
