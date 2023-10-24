@@ -112,7 +112,7 @@ a {
     height: 230px;
 }
 
-.hbrgmt-content{
+.hebergement-content{
     padding-left: 10px;
     padding-bottom: 10px;
     line-height:0.7;
@@ -321,7 +321,7 @@ form button:hover{
     margin-top: 5px;
 }
 
-.line{
+.filter-line{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -503,7 +503,7 @@ footer{
         width: 180px;
     }
 
-    .hbrgmt-content{
+    .hebergement-content{
         height: 44px;
         font-size: 12px;
     }
@@ -678,7 +678,7 @@ footer{
         white-space: nowrap;
     }
 
-    .line{
+    .filter-line{
         align-items: center;
         gap: 11px;
     }
