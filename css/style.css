@@ -92,7 +92,7 @@ a {
 
 .hebergement-cards a{
     width: calc(30% - 10px) ;
-    margin-right: 20px;
+    margin: 0 auto;
 }
 
 .card-hebergements img{
@@ -763,7 +763,7 @@ footer{
 
     .hebergement-cards a {
         width: inherit;
-        margin-right: inherit;
+        margin: inherit;
     }
 
     .hebergement-cards div {
