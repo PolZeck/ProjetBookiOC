@@ -125,6 +125,7 @@ a {
 .card-subtitle{
     font-size: 13px;
 }
+
 .card-rating{
     display: flex;
 }
@@ -202,7 +203,7 @@ nav{
 }
 
 .menu{
-    padding: 47px;
+    padding: 43px;
     padding-left: 30px;
     padding-right: 30px;
     text-decoration: none;
@@ -275,7 +276,7 @@ form button:hover{
 
 .filter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin:0px 10px 15px 10px;
 }
 
@@ -288,6 +289,11 @@ form button:hover{
     margin:0px 10px 0px 10px;
     border-radius: 35px;
     font-weight: bold;
+}
+
+.filter h2{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .button-filter:hover{
@@ -473,6 +479,11 @@ footer{
         flex-direction: column;
     }
 
+    .filter h2 {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
     .filter p{
         font-size: 13px;
     }
@@ -490,6 +501,7 @@ footer{
         margin-bottom: 7px;
     }
 
+
     /* info */
 
       .info p{
@@ -497,7 +509,7 @@ footer{
       }
 
 
-    /* hebergements */
+     /* hebergements */
 
     .hebergement-cards div{
         width: 180px;
@@ -578,8 +590,11 @@ footer{
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    
+@media (max-width: 767px) {
+    .main-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     
     /* header */
   
@@ -617,6 +632,7 @@ footer{
         border-bottom: 3px solid #F2F2F2;
     }
 
+
     /*form*/
 
     .section-title {
@@ -626,8 +642,7 @@ footer{
     }
 
     form p{
-        white-space: break-spaces;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     button .searching{
@@ -647,7 +662,7 @@ footer{
     }
 
     form input{
-        font-size: 8px;
+        font-size: 12px;
     }
     
 
@@ -655,12 +670,21 @@ footer{
 
     .button-filter{
         font-size: 13px;
-        padding: 0px 5px 0px 5px;
-        gap: 5px;
+        padding: inherit;
+        margin: inherit;
+        gap: 11px;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter h2 {
+        font-weight: bold;
+        font-size: 15px;
     }
 
     .button-filter p{
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .buttons{
@@ -670,10 +694,11 @@ footer{
         margin-left: -9px;
     }
 
-    .button-2nd{
-        padding-right: 19px;
+    .button-2nd p{
+        padding-left: 3px;
+        padding-right: 20px;
     }
-
+    
     .button-4th{
         white-space: nowrap;
     }
@@ -681,6 +706,8 @@ footer{
     .filter-line{
         align-items: center;
         gap: 11px;
+        display: flex;
+        justify-content: space-around;
     }
 
     .info p{
@@ -706,6 +733,7 @@ footer{
         justify-content: center;
         margin: -1px 5px -1px 0px;
     }
+
 
     /* hebergement & populaires */
 
@@ -777,6 +805,7 @@ footer{
     .card-hebergements{
         margin-bottom: 10px;
     }
+
 
     /* activities */
 
