@@ -595,6 +595,9 @@ footer{
         padding-left: 0px;
         padding-right: 0px;
     }
+    body{
+        margin: 0px;
+    }
     
     /* header */
   
@@ -636,17 +639,32 @@ footer{
     /*form*/
 
     .section-title {
-        margin: 0;
-        font-size: 15px;
+        margin: 0 0px;
+        font-size: 19px;
         line-height: 1;
     }
 
+    form h1{
+        padding: 0 16px;
+    }
+
     form p{
-        font-size: 13px;
+        font-size: 14px;
+        padding: 0 16px;
+        margin: 8px 0;
+    }
+
+    .searchbar{
+        padding: 0 16px;
     }
 
     button .searching{
         display: none;
+    }
+
+    form h1 {
+        font-size: 18px;
+        margin: 0 10px;
     }
 
     .fa-magnifying-glass{
@@ -665,8 +683,8 @@ footer{
     }
 
     form input{
-        font-size: 13px;
-        padding-right: 26px;
+        font-size: 14px;
+        padding-right: 31px;
         padding-left: 16px;
         border: 1px solid #f2f2f2;
     }
@@ -675,13 +693,17 @@ footer{
     /* filter */
 
     .button-filter{
-        font-size: 13px;
+        font-size: 16px;
         padding: inherit;
         margin: inherit;
-        gap: 11px;
+        gap: 7px;
         width: 45%;
         display: flex;
         justify-content: center;
+    }
+
+    .filter{
+        padding: 0 16px;
     }
 
     .filter h2 {
@@ -697,7 +719,8 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 17.5px;
-        margin-left: -9px;
+        padding-left:16px;
+        padding-top: 4px;
     }
 
     .button-2nd p{
@@ -711,7 +734,7 @@ footer{
 
     .filter-line{
         align-items: center;
-        gap: 11px;
+        gap: 0px;
         display: flex;
         justify-content: space-around;
     }
@@ -723,17 +746,18 @@ footer{
 
     .info{
         align-items: center;
-        margin-bottom: 15px
+        margin-bottom: 20px;
+        padding-left: 16px;
     }
 
     .fa-info {
         border: 1px solid lightgrey;
         border-radius: 50%;
         color: #0065FC;
-        height: 26px;
-        width: 7px;
-        font-size: 10px;
-        padding: 0px 10px;
+        height: 19px;
+        width: 0px;
+        font-size: 9px;
+        padding: 0px 9px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -757,7 +781,7 @@ footer{
     .hebergements-and-populaires section {
         background-color: #F2F2F2;
         border-radius: 0;
-        padding: 15px 10px 10px 10px;
+        padding: 25px 16px 10px 16px;
         box-sizing: border-box;
     }
 
@@ -793,6 +817,7 @@ footer{
         justify-content: center;
         gap: 0px;
         flex-wrap: nowrap;
+        margin-top: 8px;
     }
 
     .hebergement-cards a {
@@ -805,7 +830,7 @@ footer{
     }
 
     .hebergements h2{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .card-hebergements{
@@ -820,7 +845,7 @@ footer{
     }
 
     .activities-section{
-        padding-left: 0px;
+        padding: 0 20px;
     }
 
     .activities img {
@@ -836,6 +861,9 @@ footer{
 
     .foot{
         flex-direction: column;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-top: 40px;
     }
 
     .foot-assistance {
