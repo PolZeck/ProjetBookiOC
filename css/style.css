@@ -866,9 +866,26 @@ footer{
         margin-top: 40px;
     }
 
+    .foot p{
+        line-height: 0.3;
+    }
+
+    .foot h3{
+        margin-bottom: 4px;
+    }
+
     .foot-assistance {
         margin-left: 0px;
         display: flex;
         flex-direction: column;
     }
+
+    .foot-by_the_way{
+        margin-bottom: 15px;
+    }
+
+    .foot-hebergement{
+        margin-bottom: 15px;
+    }
+    
 }
